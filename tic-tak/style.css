@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+padding: 100px;
+}
+.block{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+}
+.inner{
+    background-color: wheat;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+}
+span{
+    position: absolute;
+     font-size: 100px;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+
